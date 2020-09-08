@@ -8,13 +8,16 @@
 
 .nav-bar{
    border: 1px solid blue; 
-   height: 10vh;
+   height: 15vh;
    width: 100%;
    display: flex;
-   justify-content: space-between;
    align-items: center;
+   background-color: grey;
   
-
+}
+.logo{
+    padding-left: 10px;
+    width: 196px;
 }
 
 ul {
@@ -24,19 +27,30 @@ ul {
 .nav-list {
     border: 1px solid green;
     display: flex;
-    justify-content: space-between;
-    align-items: items;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+.nav-list > li{
+    padding: 2px;
+    color: white;
+
 }
 
 .nav-list li img {
  border: 3px solid purple;
- width: 25%;
- height: 5vh;
+ width: 100px;
+ height: 6vh;
+ background-color: grey;
+ border-color: honeydew;
+ font-size: 12px;
  
 }
 
 a {
    text-decoration: none; 
+   color: white;
+   font-size: larger;
 }
 
 input[type="text"] {
@@ -48,6 +62,10 @@ input[type="text"] {
   
   button[type="button"] {
     margin-left: -74.5px;
-    height: 31.2px;
+    height: 40px;
     width:75px;
+  }
+  .search {
+      float: right;
+      
   }
