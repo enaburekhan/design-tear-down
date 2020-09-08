@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/* Nav bar section */
+
 .nav-bar{
    border: 1px solid blue; 
    height: 15vh;
@@ -68,4 +70,20 @@ input[type="text"] {
   .search {
       float: right;
       
+  }
+
+  /*main section*/
+  .article-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      /*border: 1px solid blue;*/
+      width: 100%;
+      height: 100vh;
+  }
+
+  .article-content {
+      border: 1px solid red;
+      display: flex;
+      align-items: ;
   }
