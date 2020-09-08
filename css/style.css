@@ -88,13 +88,24 @@ input[type="text"] {
     /*border: 1px solid purple;*/
     width: 100%;
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     font-size: 30px;
     font-weight: 700;
-    height: 22vh;  
+    height: 30vh;  
   }
+
+  .da {
+    border: 2px solid rgb(70, 66, 66);  
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(70, 66, 66);
+    width: 200px;
+    height: 6vh;
+  }
+
+  
 
   .ipsum-1 {
     /*border: 1px solid red;*/ 
@@ -107,8 +118,55 @@ input[type="text"] {
   .ipsum-2 {
     /*border: 1px solid red;*/ 
     position: relative; 
-    background-color: rgb(107, 96, 96);
+   /* background-color: rgb(107, 96, 96);*/
     height: 8vh;
+    width: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ipsum-2 h1 {
+     /*border: 1px solid purple; */
+     background-color: rgb(107, 96, 96);
+     height: 8vh;
+     /*width: 440px;*/
+  }
+
+  /*div h1 {
+    border: 1px solid red;
+       
+  }*/
+
+  .h1-container {
+    /*border: 1px solid blue;*/ 
+    width: 65%; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+
+  .icon-container {
+     /*border: 1px solid pink;*/
+     width: 25%;
+     height: 14vh;
+     display: flex;
+     justify-content: center; 
+  }
+
+  .icon-container .fab {
+    border: 1px solid rgb(172, 163, 163);
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: 13px;
+    transform: rotate(-15deg);
+    transform-origin: left-bottom;  
+  }
+
+  .icon-container .fab:hover {
+    transform: rotate(0deg);
+    box-shadow: 0 20px 500px 10px rgb(54, 52, 52, 0);
   }
 
   .article-content {
@@ -124,12 +182,11 @@ input[type="text"] {
      display: flex;
      flex-direction: column;
      /*border: 1px solid yellow;*/
-     height: 52vh;
+     height: 55vh;
      justify-content: flex-end;
      font-size: 30px;
      font-weight: 700;
      width: 80%;
-
   }
 
   .article-content-sub .dolor {
@@ -145,7 +202,14 @@ input[type="text"] {
       padding: 10px;
       margin-right: 10px;
       background-color: gray;
+      transform: rotate(-15deg);
+      transform-origin: left-bottom; 
 
+  }
+
+  .dolor div:hover {
+    transform: rotate(0deg);
+    box-shadow: 0 20px 500px 10px rgb(54, 52, 52, 0);
   }
 
   .dolor p {
