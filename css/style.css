@@ -507,4 +507,15 @@ input[type="text"] {
  }
  .system-design{
      background-color: lightslategray;
+     height:70vh;
+     display: flex;
+     flex-flow: row;
+ }
+ .design-system{
+     width:60%;
+     margin: 1em 2em;
+ }
+ .teardown-pics img{
+     width:250px;
+
  }
