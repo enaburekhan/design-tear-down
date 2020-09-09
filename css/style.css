@@ -603,14 +603,14 @@ button[type="button"] {
 
 .middle-form {
   width: 40%;
-  height: 75%;
+  height: 85%;
   margin: 0 auto;
   border: 1px solid blue;
 }
 
 .form-container {
   /*border: 1px solid red;*/
-  height: 120vh;
+  height: 110vh;
   background-color: rgb(212, 205, 205);
   padding-top: 60px;
 }
@@ -647,4 +647,64 @@ button[type="button"] {
 .bottom-form-arrow p {
   padding-right: 5px;
 }
+
+/*footer section starts here*/
+footer {
+  /*border: 1px solid red;*/
+  height: 70vh;
+  /*margin: auto;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: gray;
+}
+
+.footer-head {
+  /*border: 1px solid purple;*/ 
+  height: 15vh;
+  font-size: 18px;
+  font-weight: 700;
+  /*margin: 0 auto;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-top {
+  /*border: 1px solid black;*/
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  font-size: 25px;
+  grid-gap: 3px;
+  width: 80%;
+  height: 24vh;
+  /*overflow: auto;*/
+  /*display: flex;
+  font-size: 25px;
+  flex-flow: row wrap;
+  justify-content: space-evenly;*/
+}
+
+footer ul {
+  list-style-type: disc;
+}
+
+.footer-last-para {
+  /*border: 1px solid green;*/
+  width: 30%;
+  /*margin: auto;*/
+}
+
+.footer-last-list {
+  /*border: 1px solid hotpink;*/
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  list-style-type: none;
+  width: 30%;
+}
+
+/*.footer-last-list ul {
+  list-style-type: none;
+}*/
 
