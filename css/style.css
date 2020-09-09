@@ -265,6 +265,20 @@ input[type="text"] {
       display: grid;
       grid-template-columns: repeat(3,1fr );
       height:70vh;
-      /*border: 1px solid red;*/
+      border: 1px solid red;
       
+      background-color: gray;
+      
+  }
+  .days{
+      font-size: large;
+      color:black;
+  }
+  .heading-underline{
+      text-decoration: underline;
+      color: black;
+      font-size: xx-large;
+  }
+  .m-20 {
+      margin:20px;
   }
