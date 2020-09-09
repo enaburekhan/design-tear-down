@@ -386,3 +386,41 @@ input[type="text"] {
 .w-m{
     width:40%;
 }
+.shipping{
+    background-color: grey;
+    text-align: center;
+    display:flex;
+    flex-flow: column;
+    height:90vh;
+}
+ .shipping-date{
+     font-size:20px;
+     color:white;
+     margin: 20px 30px;
+ }
+ .shipping-text{
+     font-size:30px;
+     text-decoration-line: underline;
+     margin:0 4em 2em;
+ }
+ .descrip{
+     font-size: 20px;
+    margin:0 2em;
+
+ }
+ .contents{
+     color: black;
+     background-color: whitesmoke;
+     border-radius: 5px;
+     padding:10px;
+     font-weight:900;
+     margin:20px 0 0 25%;
+     width:50%;
+   }
+   .shipping > figure{
+       margin-top:5em;
+   }
+ 
+ .c-white{
+     color:whitesmoke;
+ }
