@@ -288,12 +288,23 @@ input[type="text"] {
   .section-2{
       display: grid;
       grid-template-columns: repeat(3,1fr );
-      height:70vh;
+      height:auto;
       /*border: 1px solid red;*/
-      
-      background-color: gray;
-      
+      background-color: gray; 
   }
+  .section-2-grid{
+    background-color: lightslategray;
+  }
+  .section-bckg-color{
+    background-color: lightsteelblue;
+  }
+  .bckg-grey{
+    background-color: rgba(117, 108, 108, 0.959);
+  }
+  .bckg-similar{
+    background-color: rgba(117, 108, 108, 0.945);
+  }
+  .se
   .days{
       font-size: large;
       color:black;
