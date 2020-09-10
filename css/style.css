@@ -191,7 +191,7 @@ input[type="text"] {
   }
 
   .icon-container .fab {
-    border: 1px solid rgb(172, 163, 163);
+    border: 5px solid rgb(68, 64, 64);
     padding: 6px;
     border-radius: 5px;
     margin-right: 13px;
@@ -233,12 +233,13 @@ input[type="text"] {
   }
 
   .dolor div {
-      border: 1px solid rgb(100, 94, 94);
+    border: 5px solid rgb(68, 64, 64);
       padding: 10px;
       margin-right: 10px;
       background-color: gray;
       transform: rotate(-15deg);
       transform-origin: left-bottom; 
+      border-radius: 5px;
 
   }
 
@@ -445,9 +446,10 @@ input[type="text"] {
    display: flex; 
    align-items: center;
    justify-content: center;
-   background-color: gray;
+   background-color: lightgray;
    transform: rotate(-15deg);
-   transform-origin: left-bottom; 
+   transform-origin: left-bottom;
+   border-radius: 8px; 
  }
 
  .pictur:hover {  
@@ -503,9 +505,9 @@ input[type="text"] {
  }
 
  .sub-2-img {
-   border: 3px solid gray;
-   height: 7vh;
-   width: 5vw;
+   border: 5px solid rgb(68, 64, 64);
+   height: 8vh;
+   width: 4vw;
    text-align: center;
    display: flex;
    align-items: center;
@@ -513,6 +515,7 @@ input[type="text"] {
    background-color: lightgray;
    transform: rotate(-15deg);
    transform-origin: left-bottom; 
+   border-radius: 5px;
  }
 
  .sub-2-img:hover {  
@@ -612,8 +615,16 @@ button[type="button"] {
   width: 40%;
   height: 85%;
   margin: 0 auto;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgb(122, 112, 112);
 }
+
 
 .form-container {
   /*border: 1px solid red;*/
@@ -633,12 +644,25 @@ button[type="button"] {
   text-align: center;
 }
 
-.middle-form {
+/*.middle-form {
   border: 2px solid gray;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}*/
+
+/*.middle-form-img-container {
+  border: 1px solid purple;
+  display: flex;
+  justify-content: center;
+}*/
+
+.middle-form-img img {
+  /*border: 1px solid red;*/
+  /*font-size: 20px;*/
+  width: 50%;
+  margin-left: 150px;
 }
 
 .bottom-form-arrow {
@@ -649,6 +673,7 @@ button[type="button"] {
   justify-content: center;
   align-items: center;
   /*margin: 0 auto;*/
+  cursor: pointer;
 }
 
 .bottom-form-arrow p {
@@ -709,7 +734,25 @@ footer ul {
   grid-template-columns: repeat(7, 1fr);
   list-style-type: none;
   width: 30%;
+  cursor: pointer;
 }
+
+.footer-fixed-icon {
+  border: 3px solid rgb(48, 41, 41);
+  width: 4vw;
+  height: 8vh;
+  /*text-align: center;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  background-color: gray;
+  position: absolute;
+}
+
+/*.footer-fixed-icon-container {
+  position: absolute;
+}*/
 
 /*.footer-last-list ul {
   list-style-type: none;
@@ -722,7 +765,7 @@ footer ul {
   grid-template-columns: repeat(2,1fr);
   grid-gap:0.5em;
   height:150vh;
-background-color: grey;
+  background-color: grey;
 
   
 }
