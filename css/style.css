@@ -576,7 +576,14 @@ input[type="text"] {
      width:60%;
      margin: 1em 2em;
  }
-
+.teardown-pics{
+  margin:0.6em 0 0 1em;
+}
+.para-tear{
+  font-size: larger;
+  text-size-adjust: 1em;
+  line-height: 10px;
+}
  .teardown-pics img{
      width:250px;
  }
@@ -708,3 +715,34 @@ footer ul {
   list-style-type: none;
 }*/
 
+.js-frameworks{
+  
+  display:grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap:0.5em;
+  height:150vh;
+background-color: grey;
+
+  
+}
+.grid-5{
+  border-radius:10px;
+  border-color: 5px solid black;
+  width:80%;
+  background-color: lightgray;
+  margin-left:2em;
+  margin-top: 1em;
+  color:black;
+
+}
+.grid-5-button{
+  margin: 4em 0 0 2em ;
+  padding:2em;
+  border-radius: 10px;
+}
+.guides{
+  color:black;
+  margin:10px 0 0 24em;
+  text-decoration:underline;
+}
