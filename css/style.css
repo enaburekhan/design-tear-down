@@ -30,6 +30,34 @@
   text-align: center;
 }
 
+.flexc {
+  flex-direction: column;
+}
+
+.jspace {
+  justify-content: space-between;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.br-5 {
+  border-radius: 5px;
+}
+
+.black {
+  color: black;
+}
+
+.ht-8 {
+  height: 8vh;
+}
+
+.width-80 {
+  width: 80%;
+}
+
 body {
   background-color: gray;
 }
@@ -38,7 +66,6 @@ body {
 
 .nav-bar {
   height: 15vh;
-  background-color: grey;
 }
 
 ul {
@@ -76,7 +103,7 @@ input[type="text"] {
 
 .search .fab {
   margin-right: -5px;
-  height: 26.8px;
+  height: 27px;
   width: 40px;
   border: 1px solid #fff;
   color: gray;
@@ -95,7 +122,6 @@ input[type="text"] {
 
 .top-text {
   position: absolute;
-  justify-content: space-between;
   font-size: 30px;
   font-weight: 700;
   height: 30vh;
@@ -103,7 +129,6 @@ input[type="text"] {
 
 .da {
   border: 2px solid rgb(70, 66, 66);
-  padding: 5px;
   border-radius: 5px;
   background-color: rgb(70, 66, 66);
   width: 200px;
@@ -113,25 +138,21 @@ input[type="text"] {
 .ipsum-1 {
   position: relative;
   background-color: rgb(107, 96, 96);
-  height: 8vh;
 }
 
 .ipsum-2 {
   position: relative;
-  height: 8vh;
   width: 440px;
   align-items: center;
 }
 
 .ipsum-2 h1 {
   background-color: rgb(107, 96, 96);
-  height: 8vh;
 }
 
 .h1-container {
   width: 65%;
   align-items: flex-end;
-  flex-direction: column;
 }
 
 .icon-container {
@@ -142,7 +163,6 @@ input[type="text"] {
 .icon-container .fab {
   border: 5px solid rgb(68, 64, 64);
   padding: 6px;
-  border-radius: 5px;
   margin-right: 13px;
   transform: rotate(-15deg);
   transform-origin: left bottom;
@@ -156,7 +176,6 @@ input[type="text"] {
 .article-content {
   border: 1px solid rgb(148, 139, 139);
   flex-flow: column wrap;
-  justify-content: space-between;
 }
 
 .article-content-color-1 {
@@ -176,12 +195,10 @@ input[type="text"] {
 }
 
 .article-content-sub {
-  flex-direction: column;
   height: 55vh;
   justify-content: flex-end;
   font-size: 30px;
   font-weight: 700;
-  width: 80%;
 }
 
 .article-content-sub .dolor {
@@ -196,7 +213,6 @@ input[type="text"] {
   background-color: gray;
   transform: rotate(-15deg);
   transform-origin: left bottom;
-  border-radius: 5px;
 }
 
 .dolor div:hover {
@@ -209,7 +225,7 @@ input[type="text"] {
 }
 
 .arrow {
-  width: 80%;
+  /* width: 80%; */
   height: 12vh;
   font-size: 30px;
 }
@@ -217,7 +233,8 @@ input[type="text"] {
 .section-2 {
   grid-template-columns: repeat(3, 1fr);
   height: auto;
-  background-color: gray;
+
+  /* background-color: gray; */
 }
 
 .section-2-grid {
@@ -243,7 +260,8 @@ input[type="text"] {
 
 .heading-underline {
   text-decoration: underline;
-  color: black;
+
+  /* color: black; */
   font-size: xx-large;
 }
 
@@ -264,13 +282,16 @@ input[type="text"] {
   border: 1px solid gray;
   width: 135px;
   padding: 5px;
-  justify-content: space-between;
-  border-radius: 5px;
+
+  /* justify-content: space-between; */
+
+  /* border-radius: 5px; */
 }
 
 .middle-1-article {
   border: 1px solid rgb(207, 191, 191);
-  flex-direction: column;
+
+  /* flex-direction: column; */
   justify-content: space-around;
   background-color: rgb(209, 199, 199);
 }
@@ -286,7 +307,7 @@ input[type="text"] {
 }
 
 .small-text {
-  width: 80%;
+  /* width: 80%; */
   font-size: 20px;
 }
 
@@ -304,19 +325,23 @@ input[type="text"] {
 
 .middle-2-sub {
   width: 90%;
-  flex-direction: column;
-  justify-content: space-between;
+
+  /* flex-direction: column; */
+
+  /* justify-content: space-between; */
   align-items: flex-start;
 }
 
 .middle-2-content {
   height: 70%;
-  flex-direction: column;
-  justify-content: space-between;
+
+  /* flex-direction: column; */
+
+  /* justify-content: space-between; */
 }
 
 .arrow-2 {
-  height: 8vh;
+  /* height: 8vh; */
   font-size: 30px;
 }
 
@@ -339,7 +364,7 @@ input[type="text"] {
 }
 
 .shipping {
-  background-color: grey;
+  /* background-color: grey; */
   flex-flow: column;
   height: 90vh;
 }
@@ -362,9 +387,10 @@ input[type="text"] {
 }
 
 .contents {
-  color: black;
+  /* color: black; */
   background-color: whitesmoke;
-  border-radius: 5px;
+
+  /* border-radius: 5px; */
   padding: 20px;
   font-weight: 900;
   margin: 20px 0 0 36%;
@@ -404,10 +430,7 @@ input[type="text"] {
 }
 
 .middle-3-sub-1-content {
-  width: 80%;
   height: 88%;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .middle-3-header {
@@ -423,7 +446,6 @@ input[type="text"] {
 .middle-3-sub-2 {
   height: 120vh;
   justify-content: space-evenly;
-  background-color: gray;
 }
 
 .middle-3-sub-2-article-container {
@@ -432,19 +454,16 @@ input[type="text"] {
 }
 
 .middle-3-sub-2-content {
-  justify-content: space-between;
   height: 40vh;
 }
 
 .sub-2-img {
   border: 5px solid rgb(68, 64, 64);
-  height: 8vh;
   width: 4vw;
   text-align: center;
   background-color: lightgray;
   transform: rotate(-15deg);
   transform-origin: left bottom;
-  border-radius: 5px;
 }
 
 .sub-2-img:hover {
@@ -477,13 +496,6 @@ input[type="text"] {
 .bottom-middle-3-sub-3 {
   width: 150px;
   margin: 0 auto;
-  justify-content: space-between;
-  background-color: gray;
-}
-
-.bottom-middle-3-sub-3-container {
-  background-color: gray;
-  height: 8vh;
 }
 
 .system-design {
@@ -536,9 +548,7 @@ button[type="button"] {
   height: 85%;
   margin: 0 auto;
   border: 2px solid gray;
-  flex-direction: column;
   justify-content: space-around;
-  border-radius: 5px;
   background-color: rgb(122, 112, 112);
 }
 
@@ -565,7 +575,6 @@ button[type="button"] {
 .nav-list li img {
   width: 170px;
   height: 10vh;
-  background-color: grey;
   border-color: honeydew;
   font-size: 18px;
 }
@@ -583,7 +592,6 @@ button[type="button"] {
 
 .foot {
   height: 70vh;
-  flex-direction: column;
   justify-content: space-around;
   background-color: gray;
 }
@@ -598,7 +606,6 @@ button[type="button"] {
   grid-template-columns: repeat(11, 1fr);
   font-size: 25px;
   grid-gap: 3px;
-  width: 80%;
   height: 24vh;
 }
 
@@ -623,7 +630,6 @@ button[type="button"] {
   width: 3vw;
   height: 6vh;
   border-radius: 7px;
-  background-color: grey;
   position: fixed;
   bottom: 10px;
   color: white;
@@ -649,17 +655,14 @@ button[type="button"] {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0.5em;
   height: 150vh;
-  background-color: grey;
 }
 
 .grid-5 {
   border-radius: 10px;
   border: 5px solid black;
-  width: 80%;
   background-color: lightgray;
   margin-left: 2em;
   margin-top: 1em;
-  color: black;
 }
 
 .grid-5-button {
@@ -669,7 +672,6 @@ button[type="button"] {
 }
 
 .guides {
-  color: black;
   margin: 10px 0 0 4em;
   text-decoration: underline;
   justify-content: flex-end;
